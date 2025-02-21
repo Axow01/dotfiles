@@ -249,7 +249,7 @@ bar {
 # Stylings #
 ############
 
-font Hack Nerd Font Mono 10
+font Hack Nerd Font Mono 12
 client.focused #008170 #009480 #EEEEEE #005B41
 client.unfocused #333333 #4b6e69 #ffffff #484e50 #5f676a
 client.focused_inactive #333333 #4b6e69 #ffffff #484e50 #5f676a

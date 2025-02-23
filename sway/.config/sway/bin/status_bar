@@ -1,0 +1,17 @@
+#!/bin/sh
+
+while
+
+
+volume_pre_parse=$(wpctl get-volume @DEFAULT_AUDIO_SINK@)
+# Get volume level
+volume="$(/home/mick/.config/sway/bin/volume_parser "$volume_pre_parse")"
+
+# Print date
+date=$(date +'%Y-%m-%d %X')
+
+# Echo the final result
+echo " $volume | $date"
+
+do sleep 1;
+done

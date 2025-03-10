@@ -85,7 +85,8 @@ input "2821:6213:ASUS_ROG_Gladius_II" {
 
     # Kill focused window
     bindsym $mod+c kill
-
+    bindsym $mod+Shift+q exec alacritty -e xkill
+    # bindsym $mod+Shift+q exec kill -9 $(swaymsg -t get_tree | jq -r '.. | select(.focused?) | .pid')
     # Start your launcher
     bindsym $mod+space exec $menu
     bindsym $mod+Shift+n exec swaync-client -t sw

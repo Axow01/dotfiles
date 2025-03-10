@@ -2,9 +2,9 @@
   "position": "top",
   "height": 25,
   "reload_style_on_change": true,
-  "modules-left": ["sway/workspaces", "sway/mode"],
+  "modules-left": ["sway/workspaces", "sway/mode", "sway/scratchpad"],
   "modules-center": ["sway/window"],
-  "modules-right": ["network", "pulseaudio", "clock"],
+  "modules-right": ["cpu", "network", "pulseaudio", "clock"],
   "clock": {
     "format": "<span weight='bold'> </span>{:%A %H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
@@ -18,11 +18,14 @@
     "tooltip-format-wifi": "Signal Strenght: {signalStrength}%"
   },
   "pulseaudio": {
-      "format": "<span weight='bold'>{icon} </span>{volume}",
+      "format": "<span weight='bold'>{icon} </span>{volume}%",
       "format-muted": "",
       "format-icons": {
           "default": ["", "", " "]
       },
       "on-click": "pavucontrol"
+  },
+  "cpu": {
+    "format": "  {usage}%"
   }
 }

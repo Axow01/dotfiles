@@ -7,22 +7,22 @@ size = 12.0
 
 [font.bold]
 # family = "MesloLGS Nerd Font Mono"
-family = "Hack Nerd Font"
+family = "SauceCodePro Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "Hack Nerd Font"
+family = "SauceCodePro Nerd Font Mono"
 # family = "MesloLGS Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "Hack Nerd Font"
+family = "SauceCodePro Nerd Font Mono"
 # family = "MesloLGS Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
 # family = "MesloLGS Nerd Font Mono"
-family = "Hack Nerd Font"
+family = "SauceCodePro Nerd Font Mono"
 style = "Regular"
 
 [general]

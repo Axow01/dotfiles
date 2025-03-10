@@ -90,6 +90,10 @@ window#waybar {
   color: #7cb342;
 }
 
+#network {
+  margin-left: 20px;
+}
+
 #idle_inhibitor.activated {
   color: @red;
 }
